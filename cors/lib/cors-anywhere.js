@@ -51,7 +51,7 @@ function isValidHostName(hostname) {
  * @param request {ServerRequest}
  */
 function withCORS(headers, request) {
-  headers['access-control-allow-origin'] = 'https://account.microsoft.com/rewards/';
+  headers['access-control-allow-origin'] = 'chrome-extension://nkehjiackpilondifkdglecdblnhpnfe';
   var corsMaxAge = request.corsAnywhereRequestState.corsMaxAge;
   if (corsMaxAge) {
     headers['access-control-max-age'] = corsMaxAge;
