@@ -5,7 +5,7 @@
 
 To make your own CORS server, you can fork this project and edit the *cors/lib/cors-anywhere.js* file. You need to change the value of the variable `myDomain` to your domain address. 
 
-In case of an Chrome extension, your domain address would be: `"chrome-extension://" + extensionID`. Extension ID can be found on the [chrome://extensions/](chrome://extensions/) page.
+In case of an Chrome extension, your domain address would be: `"chrome-extension://" + extensionID`. Extension ID can be found on the *[chrome://extensions/](chrome://extensions/)* page.
 
 > For example:
 > 
