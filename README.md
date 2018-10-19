@@ -3,6 +3,8 @@
 
 **THIS CORS SERVER IS BUILT FOR PERSONAL USE AND WORKS ONLY FOR ME**
 
+## How to set up your own CORS server - A quick guide
+
 To make your own CORS API server, you can fork this project and edit the *cors/lib/cors-anywhere.js* file. You need to change the value of the variable `myDomain` to your domain address. 
 
 In case of an Chrome extension, your domain address would be: `"chrome-extension://" + extensionID`. Extension ID can be found on the *[chrome://extensions/](chrome://extensions/)* page.
