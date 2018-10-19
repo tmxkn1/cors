@@ -3,6 +3,18 @@
 
 **THIS CORS SERVER IS BUILT FOR PERSONAL USE AND WORKS ONLY FOR ME**
 
+To make your own CORS server, you can fork this project and edit the *cors/lib/cors-anywhere.js* file, and change variable `myDomain` to your domain address. 
+
+To enable CORS for an Chrome extension, goto chrome://extensions/, find the extension, copy its ID and your domain address would be:
+
+`"chrome-extension://" + extensionID`
+
+> For example:
+> 
+> The ID for the extension is `xfdewsldf9e8sdf6qdfhd`, then the domain would be:
+> 
+> `"chrome-extension://xfdewsldf9e8sdf6qdfhd"`
+
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
 The url to proxy is literally taken from the path, validated and proxied. The protocol
