@@ -9,6 +9,8 @@ To make your own CORS API server, you can fork this project and edit the *cors/l
 
 To depoly your server, you need an account for [heroku](https://www.heroku.com/). Then, you can import your forked and edited repository and deloy.
 
+## Description
+
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
 The url to proxy is literally taken from the path, validated and proxied. The protocol
